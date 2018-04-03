@@ -1,1 +1,17 @@
-hello hello g
+#include<iostream.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+char s[20];
+int i;
+cout<<"enter the string";
+cin>>s;
+for(i=o;i<strlen(s);i++)
+{
+if((s[i]=='a')||(s[i]=='e')||(s[i]=='i')||(s[i]=='e')||(s[i]=='u'))
+{
+cout<<"vowel :"<<s[i];
+}
+}
+}
